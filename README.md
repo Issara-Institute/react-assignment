@@ -33,12 +33,12 @@ The idea is to build a single page that displays the profiles of service provide
 All service providers profiles data is to be fetched from the following API endpoint:
 ```
 Method: GET
-URL: https://server-dot-ilm-client-dev.appspot.com/api/v1/service-providers?lang={{language_code}}
+URL: https://staging.cms.golden-dreams.org/api/v1/service-providers?lang={{language_code}}
 ```
 
 The `{{language_code}}` in the URL is the placeholder for the language code. It should be dynamically replaced by the language code selected in a language selector component (you should create one). For example, if selected language code is `en` then the URL would look like this:
 
-https://server-dot-ilm-client-dev.appspot.com/api/v1/service-providers?lang=en
+https://staging.cms.golden-dreams.org/api/v1/service-providers?lang=en
 
 The schema of the data received in the response is:
 ```Javascript
@@ -62,7 +62,7 @@ The schema of the data received in the response is:
 All supported languages are to be fetched from the following API endpoint:
 ```
 Method: GET
-URL: https://server-dot-ilm-client-dev.appspot.com/api/v1/localization/languages
+URL: https://staging.cms.golden-dreams.org/api/v1/localization/languages
 ```
 
 The schema of the data received in the response is:
@@ -86,7 +86,7 @@ The schema of the data received in the response is:
 
 This assignment is designed for applicants who have learned ReactJS and have minimal hands-on experience in developing react application.
 
-Extended demo of how it might look like - https://client-dot-ilm-client-dev.appspot.com/services
+Extended demo of how it might look like - https://staging.app.golden-dreams.org/services
 
 **Notes:**
 - this is extended demo, for this assignment you don't need to add filters, search and any other extra information that wasn't mentioned earlier such us address, category, etc
@@ -98,16 +98,15 @@ Extended demo of how it might look like - https://client-dot-ilm-client-dev.apps
 ### What are we looking for?
 
 With this assignment we would evaluate the following:
-
- - Ability to create new react projects using [Create React App](https://facebook.github.io/create-react-app/)
+ 
+ - Ability to write unit tests
  - Understanding of JSX
  - Passing props to components
- - Understanding of stateful and stateless Components
+ - Understanding of stateful and stateless components
  - Basic understanding of state management and component lifecycle methods
  - Fetching data from an API endpoint
  - Conditional rendering
  - Working with lists
- - Ability of the applicant to learn a new React UI library and use its components in their app
 
 ### Instructions
 This app should be a responsive (mobile, tablet and desktop) and will be tested on Chrome browser.
