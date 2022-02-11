@@ -88,6 +88,9 @@ This assignment is designed for applicants who have learned ReactJS and have min
 
 Extended demo of how it might look like - https://staging.app.golden-dreams.org/services
 
+## Write tests for your code **
+
+
 **Notes:**
 - this is extended demo, for this assignment you don't need to add filters, search and any other extra information that wasn't mentioned earlier such us address, category, etc
 
